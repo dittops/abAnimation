@@ -8,13 +8,15 @@ Steps
 
 1. Add css and js files
 
-    You will have to add abAnimation.css to you page 
+    You will have to add abAnimation.css to your page 
+    ```
     <link href="/path/to/source/abAnimation.css" rel="stylesheet" type="text/css" />
+    ```
     
     If you require auto animate when the element enters the window, you will have to add abAnimation.js to you web page. abAnimation requrire jquery to work. So make sure you have jquery added in you page. 
-    
+    ```
     <script type="text/javascript" src="path/to/source"></script>
-
+    ```
 2. For auto animate add class to the elements
 
     If we need to give slide in effect to an element when in appears on the screen, add the class 'animation' and the class for the effect eg: 'slideInBottom', 'slideInTop', 'pulse', etc to your element.
